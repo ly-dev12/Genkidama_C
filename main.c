@@ -30,5 +30,7 @@ int main() {
     }
 
     printf("%s has logrado derrotar al enemigo", Genk.Character);
+
+    free(Genk.Character);
     return 0;
 }
